@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Símbolo Panal simplificado: 4 hexágonos, color original sin degradado. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp" android:height="260dp"
+    android:viewportWidth="200" android:viewportHeight="260">
+    <path android:fillColor="#7D683D" android:pathData="M58.0,12.0 L97.8,35.0 L97.8,81.0 L58.0,104.0 L18.2,81.0 L18.2,35.0 Z"/>
+    <path android:fillColor="#7D683D" android:pathData="M142.0,12.0 L181.8,35.0 L181.8,81.0 L142.0,104.0 L102.2,81.0 L102.2,35.0 Z"/>
+    <path android:fillColor="#7D683D" android:pathData="M100.0,84.0 L139.8,107.0 L139.8,153.0 L100.0,176.0 L60.2,153.0 L60.2,107.0 Z"/>
+    <path android:fillColor="#7D683D" android:pathData="M142.0,156.0 L181.8,179.0 L181.8,225.0 L142.0,248.0 L102.2,225.0 L102.2,179.0 Z"/>
+</vector>

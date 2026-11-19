@@ -12,7 +12,7 @@ import androidx.room.Room
 import com.tdp.panal.data.local.AppDatabase
 import com.tdp.panal.data.repository.AuthRepository
 import com.tdp.panal.navigation.AppNavigation
-import com.tdp.panal.ui.theme.MosaicTheme
+import com.tdp.panal.ui.theme.PanalTheme
 import com.tdp.panal.ui.viewmodel.AuthViewModel
 
 /* ============================================================
@@ -44,7 +44,7 @@ class MainActivity : ComponentActivity() {
         )[AuthViewModel::class.java]
 
         setContent {
-            MosaicTheme {
+            PanalTheme {
                 Surface(modifier = Modifier.fillMaxSize()) {
                     AppNavigation(authViewModel = authViewModel)
                 }
