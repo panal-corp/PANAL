@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <style name="Theme.PANAL" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- Tema nativo mínimo: la interfaz real es Compose (PanalTheme). -->
+    <style name="Theme.PANAL" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#0C0C0C</item>
+        <item name="android:statusBarColor">#0C0C0C</item>
+        <item name="android:navigationBarColor">#0C0C0C</item>
+    </style>
 </resources>
