@@ -72,8 +72,7 @@ fun LoginScreen(
     initialUsername: String = "",
     successMessage: String? = null,
     onNavigateToRegister: () -> Unit,
-    onLoginSuccess: () -> Unit,
-    backgroundView: ic_
+    onLoginSuccess: () -> Unit
 ) {
     /* rememberSaveable: el usuario escrito sobrevive al ir y
        volver del registro, como la página de MAUI en la pila. */
